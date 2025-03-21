@@ -1,0 +1,9 @@
+name: List Organization Repositories
+
+on:
+  workflow_dispatch:
+
+jobs:
+  list-repos:
+    uses: DevSadMood/dev-workflows/.github/workflows/repo-list.yml@main
+    secrets: inherit
